@@ -224,7 +224,7 @@
     margin-bottom: 24px;
   }
   .contactContainer {
-    padding: 0 8px;
+    padding: 0 32px;
     display: flex;
     flex-direction: column;
     justify-content: center;

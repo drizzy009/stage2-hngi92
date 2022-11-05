@@ -1,0 +1,318 @@
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+.customBorder {
+  border-top: 1px solid #000 !important;
+}
+.linkHover:hover {
+  background-color: #d0d5dd;
+  transition: ease-in 0.2s;
+}
+
+/* CONTACT STYLES >>>>>> */
+
+.contactPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 64px 0px 96px;
+  gap: 64px;
+}
+.contactContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 32px;
+  gap: 64px;
+}
+.contactContent1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+}
+.contactContent2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 48px;
+}
+.contactHeader {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 20px;
+}
+.contactHeader_h3 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  letter-spacing: -0.02em;
+}
+.contactHeader_p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #475467;
+}
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 32px;
+}
+.contactFormfields {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 24px;
+}
+.nameField {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 24px;
+}
+.emailField {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 6px;
+}
+.textField {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 6px;
+}
+.formCheckbox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 12px;
+}
+.formButton {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 20px;
+  gap: 8px;
+  width: 720px;
+  height: 48px;
+  background: #1570ef;
+  border: 1px solid #1570ef;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 8px;
+}
+.formLabels {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 6px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #344054;
+}
+.formLabelsBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 2px 0px 0px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #475467;
+}
+.formInputs {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 14px;
+  gap: 8px;
+  background: #ffffff;
+  border: 1px solid #d0d5dd;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 8px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #667085;
+  width: 348px;
+}
+.formInputs2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 14px;
+  gap: 8px;
+  background: #ffffff;
+  border: 1px solid #d0d5dd;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 8px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #667085;
+  width: 720px;
+  resize: unset;
+}
+.formInputsBox {
+  background: #ffffff;
+  border: 1px solid #d0d5dd;
+  border-radius: 6px;
+}
+.formInputsBtn {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+/* CONTACT STYLES ENDS HERE ^^^^^ */
+
+@media (max-width: 768px) {
+  .footerStyle {
+    flex-direction: row !important;
+    gap: 24px !important;
+  }
+  .footerStyle2 {
+    flex-wrap: wrap !important;
+    gap: 24px !important;
+  }
+  .linkPadding {
+    padding: unset !important;
+  }
+  .socialsecBottom {
+    margin-bottom: 24px;
+  }
+  .contactContainer {
+    padding: 0 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .contactHeader_p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .contactPage {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 64px 0px;
+    gap: 48px;
+  }
+  .contactHeader {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+  }
+  .contactForm {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 32px;
+  }
+  .contactFormfields {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+  }
+  .nameField {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 6px;
+  }
+  .emailField {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 6px;
+  }
+  .textField {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 6px;
+  }
+  .formCheckbox {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 12px;
+  }
+  .formButton {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 20px;
+    gap: 8px;
+  }
+  .formInputs {
+    max-width: 358px;
+  }
+  .formInputs2 {
+    max-width: 349px;
+  }
+  .formLabelsBox {
+    justify-content: center;
+    align-items: center;
+  }
+  .formButton {
+   width: 349px;
+  }
+}
+@media (max-width: 1345px) {
+  .footerStyle {
+    flex-direction: row;
+  }
+  .footerStyle2 {
+    flex-wrap: wrap;
+    gap: 70px;
+  }
+  .linkPadding {
+    padding: unset !important;
+  }
+  .socialsecBottom {
+    margin-bottom: 24px;
+  }
+}

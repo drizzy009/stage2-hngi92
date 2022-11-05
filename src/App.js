@@ -6,7 +6,7 @@ import Notfound from './components/Notfound';
 
 function App() {
   return (
-    <div className='p-6 font-inter '>
+    <div className='sm:p-6 font-inter '>
       <Router>
         <Routes>
           <Route path='' element={<Main />} />

@@ -28,6 +28,7 @@ const Links = () => {
         ))}
         <Link
           to="/contact"
+          id="contact"
           className={`flex flex-col items-center font-medium text-gray-900 font-inter py-6 px-8 bg-gray-200 my-4 rounded w-[100%] ${styles.linkHover}`}
         >
           Contact Me
